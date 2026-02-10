@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="lk.kaushalya.payment.fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"
+        />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="lk.kaushalya.payment.fragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"
+        />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="lk.kaushalya.payment.fragment.SettingFragment"
+        android:label="Setting"
+        tools:layout="@layout/fragment_setting"
+        />
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="lk.kaushalya.payment.fragment.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification"
+        />
 
 </navigation>
